@@ -207,6 +207,16 @@ tempCodeRunnerFile.py
 .ruff_cache/
 .idea/
 
+# Credit Risk application
+# The API loads these serialized model files at runtime, so keep them tracked.
+# Credit_Risk/credit_risk_model.pkl
+# Credit_Risk/best_threshold.pkl
+Credit_Risk/credit_risk_dataset.csv
+Credit_Risk/.env
+Credit_Risk/.env.*
+!Credit_Risk/.env.example
+Credit_Risk/*.log
+
 
 # PyPI configuration file
 .pypirc
